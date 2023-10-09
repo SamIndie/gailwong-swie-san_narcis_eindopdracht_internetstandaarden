@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*general*/
+
+
+    
+nav ul li a{
+text-decoration: none;
+  color: #291103;
+  padding: 0 2em;
+  margin: 1em;
+  background-color:sienna;
+  text-align: center;
+  border-radius: 0.3em;
+  transition: all 300ms ease;
+  display: inline;
+}
+
+footer ul li a{
+    text-decoration: none;
+  }
+  
+  footer{
+    background-image: linear-gradient(#fdcf96be, rgb(247, 246, 222));
+    font-size: 1em;
+    color:sienna;
+    padding: 4em;
+    border-top: 0.1em solid burlywood;
+}
+
+    
+   
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkred;
+    font-size: 4em;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#about h2{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 3rem;
+padding-left: 20%;
+margin-bottom: 3%;
+color: brown;
+display: flex;
+justify-content: flex-start;
+
+}
+
+/* index.html*/
+html.index{
+   background-image:url(../img/backgroundindex.png)}
+
+
+
+video{
+  
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-left: 30%;
+   height: 50em;
+   width: 50em;
+    
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em ;
+    margin-top: 10%;
+    margin-bottom: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+p{
+    font-size: 250%;
+    font-family: cursive;
+    width: 50%;
+    height: 30%;
+    color: darkred; 
+    text-align: center;
+    background-color: antiquewhite;
+    
+   
+}
+
+
+
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+
+
+
+/*wordofyheday*/
+
+html.wordoftheday{
+    background-image: url(../img/backgroundwodd.png);
+
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+.container p{
+    padding-right: 5em;
+}
+
+
+.part{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items:flex-start;
+    align-self: stretch;
+    margin-left: 50%;
+    width: 40%;
+    
+}
+
+
+/*art*/
+html.food{
+    background-image: url(../img/backgroundart.png);}
+
+.art ul li{
+display: flex;
+justify-content: space-between;
+margin-left: 20%;
+
+}
+
+/*food*/
+html.food{
+    background-image: url(../img/backgroundart.png);}
+    
+.foodpictures{
+    display: flex;
+    align-content: space-around;
+    align-content: space-between;
+}
